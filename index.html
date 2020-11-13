@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Temperature converter</title>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Temperature Converter</h1>
+		<div class="flex-box">
+			<div class="form-group">
+				<label for="">Fahrenheit</label>
+				<input oninput="fToOthers(this.value)" id="fInput" type="number" placeholder="Enter Fahrenheit...">
+			</div>
+
+			<div class="form-group">
+				<label for="">Celcius</label>
+				<input oninput="cToOthers(this.value)" id="cInput" type="number" placeholder="Enter Celcius...">
+			</div>
+
+			<div class="form-group">
+				<label for="">Kelvin</label>
+				<input oninput="kToOthers(this.value)" id="kInput" type="number" placeholder="Enter Kelvin...">
+			</div>
+
+			<div class="form-group">
+				<label for="">Rankine</label>
+				<input oninput="rToOthers(this.value)" id="rInput" type="number" placeholder="Enter Rankine...">
+			</div>
+		</div>
+		
+	</div>
+
+
+	<script src="script.js"></script>
+	
+</body>
+</html>
